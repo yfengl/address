@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="550.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.classList.AddressList">
+   <children>
+      <BorderPane focusTraversable="true" prefHeight="550.0" prefWidth="700.0">
+         <center>
+            <FlowPane alignment="CENTER" columnHalignment="CENTER" hgap="10.0" prefHeight="450.0" prefWidth="600.0" vgap="10.0" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets />
+               </BorderPane.margin>
+               <children>
+                  <TextField fx:id="message" editable="false" prefHeight="30.0" prefWidth="520.0" promptText="运行信息">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </TextField>
+                  <Button fx:id="updateStudent" mnemonicParsing="false" text="更新" />
+                  <TextField fx:id="checkID" prefHeight="30.0" prefWidth="250.0" promptText="输入姓名关键字" />
+                  <Button fx:id="check" mnemonicParsing="false" text="查询" />
+                  <Button fx:id="about" mnemonicParsing="false" text="关于" />
+                  <Button fx:id="add" contentDisplay="CENTER" mnemonicParsing="false" text="添加" textAlignment="JUSTIFY" textOverrun="CENTER_ELLIPSIS" />
+                  <TextField fx:id="fileName" editable="false" prefHeight="30.0" prefWidth="400.0" promptText="文件名" />
+                  <Button fx:id="file" mnemonicParsing="false" text="导出文件" />
+                  <TableView fx:id="tableView" prefHeight="300.0" prefWidth="581.0">
+                     <columns>
+                        <TableColumn fx:id="numberCol" minWidth="50.0" prefWidth="50.0" text="编号" />
+                        <TableColumn fx:id="nameCol" minWidth="80.0" text="姓名" />
+                        <TableColumn fx:id="classCol" minWidth="50.0" prefWidth="50.0" text="班级" />
+                        <TableColumn fx:id="telCol" minWidth="110.0" prefWidth="110.0" text="手机号" />
+                        <TableColumn fx:id="mailCol" minWidth="150.0" prefWidth="150.0" text="电子邮件" />
+                        <TableColumn fx:id="deleteCol" minWidth="70.0" prefWidth="70.0" text="删除" />
+                        <TableColumn fx:id="updateCol" minWidth="70.0" prefWidth="70.0" text="修改" />
+                     </columns>
+                  </TableView>
+               </children>
+            </FlowPane>
+         </center>
+         <top>
+            <VBox alignment="CENTER" prefHeight="52.0" prefWidth="700.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label text="班级通讯录系统" textFill="#b21212">
+                     <font>
+                        <Font name="Consolas" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </top>
+         <bottom>
+            <VBox alignment="CENTER" prefHeight="26.0" prefWidth="681.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label text="©2020 yfl " textFill="#e57005">
+                     <font>
+                        <Font name="Consolas" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </bottom>
+      </BorderPane>
+   </children>
+</AnchorPane>

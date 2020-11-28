@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Address:jar">
+    <output-path>$PROJECT_DIR$/out/</output-path>
+    <root id="archive" name="Address.jar">
+      <element id="module-output" name="Address" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/c3p0-0.9.5.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/commons-dbutils-1.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/mchange-commons-java-0.2.19.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/mysql-connector-java-8.0.20.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
