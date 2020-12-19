@@ -6,7 +6,7 @@
 		<property name="jdbcUrl">
 			<![CDATA[jdbc:mysql://localhost:3306/classlist?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC]]>
 		</property>
-		<property name="user">root</property>
-		<property name="password">924599</property>
+		<property name="user">dbuser</property>
+		<property name="password">123456</property>
 	</default-config>
 </c3p0-config>
