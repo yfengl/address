@@ -157,7 +157,8 @@ public class AddressList extends Application {
                     se.printStackTrace();
                 }
                 stage.close();
-                stage.show();
+                AddressList addressList=new AddressList();
+                addressList.show();
             case CANCEL_CLOSE:
             default:
         }

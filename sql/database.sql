@@ -2,4 +2,4 @@ CREATE DATABASE IF NOT EXISTS classlist DEFAULT CHARSET utf8 COLLATE utf8_genera
 
 CREATE USER IF NOT EXISTS 'dbuser'@'localhost' IDENTIFIED BY '123456';
 
-GRANT ALL ON classlist .* TO 'dbuser'@'localhost';
+GRANT ALL ON classlist.* TO 'dbuser'@'localhost';
